@@ -598,11 +598,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 32px;
+  padding: 10px 32px;
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
-  margin: 10px;
+  margin: 5px;
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
@@ -643,9 +643,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .valuesText {
-  font-size: 35px !important;
+  font-size: 25px !important;
   font-style: italic;
   font-family: cursive;
+}
+
+@media (max-width:375px) {
+  .intro-logo {
+    width: 100px;
+  }
+}
+@media (max-width:768px) {
+  .intro-logo {
+    width: 100px;
+  }
+}
+@media (max-width:2000px) {
+  .intro-logo {
+    width: 210px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1558,6 +1574,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+#footer .logo-image {
+  height: 200px !important;
+  vertical-align: middle;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
